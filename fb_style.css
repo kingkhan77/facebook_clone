@@ -35,17 +35,18 @@ img{
 
 .logoandcaption{
     flex-direction: column ;
-    margin-left: 30px;
-    margin-top: 50px;
+    margin-left: 50px;
+    margin-top: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .caption{
     margin-left: 25px;
     padding-bottom: 10px;
     min-width: 380px;
-    max-width: 450px;
+    max-width: 400px;
 }
 
 .content{
@@ -62,7 +63,7 @@ img{
 } */
 
 .loginform{
-    width: 370px;
+    width: 370px; 
     height: 330px;
     text-align: center;
     border: 2px solid #f0f2f5;
@@ -177,19 +178,44 @@ footer{
     font-size: 12px;
     font-family: inherit;
     background-color: #fff;
-    position:fixed;
+    /* position:fixed; */
     /* margin-top: 200px; */
-    padding: 20px 70px;
+    padding: 20px 250px;
     display: block;
     align-items: baseline;
-    /* width: 400px; */
+    max-widthx: 400px;
 }
 
 .languages{
-    word-spacing: 10px;
+    list-style-type: none;
+    display: flex;
     color:  #737373;
     font-size: 13px;
     font-family: inherit;
     cursor: pointer;
     line-height: 1.6;
+    padding-inline-start: 0;
 }
+
+.footer_items{
+    list-style-type: none;
+    color:  #737373;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.6;
+    padding-inline-start: 0;    
+}
+
+ul li{
+    margin-right: 20px;
+    font-family: inherit;
+
+}
+
+ul li:hover{
+    text-decoration: underline;
+}
+
