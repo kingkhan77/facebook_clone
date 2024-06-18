@@ -115,10 +115,6 @@ img{
     border: 1px solid #dddfe2;
 }
 
-/* form{
-    width: 300px;
-} */
-
 .loginform{
     width: 370px; 
     height: 330px;
@@ -231,20 +227,15 @@ a:hover{
 
 .Footer{
     color:  #737373;
-    /* word-spacing: 10px; */
     font-size: 12px;
     font-family: inherit;
     font-family: Helvetica, Arial, sans-serif;
     background-color: #fff;
-    /* position:fixed; */
     margin: 0px auto;
-    /* padding: 20px 250px; */
     padding-top: 20px;
-    /* display: block; */
     align-items: baseline;
     justify-content: center;
     width: 980px;
-    /* max-width: 1020px; */
 }
 
 @media only screen and (max-width: 1075px) {
@@ -296,6 +287,12 @@ a:hover{
     flex-wrap: wrap;
     line-height: 1.6;
     padding-inline-start: 0;    
+}
+
+.footer_items li img {
+    height: 15px;
+    margin-bottom: -2.5px;
+    margin-left: -4px;
 }
 
 ul li{
