@@ -266,6 +266,26 @@ a:hover{
     padding-inline-start: 0;
 }
 
+.languages li{
+    margin-right: 10px !important;
+}
+
+.plus{
+    border: 1px solid rgb(202, 185, 185);
+    border-radius: 2px;
+    background-color: #f5f6f8;
+    margin-top: -3px;
+    height: 17px;
+}
+
+.plus h2 {
+    height: 1px;
+    margin-top: -2px;
+    padding: 1.5px 8px;
+    margin-left: -1px;
+    color: #736f6f;
+}
+
 .footer_items{
     list-style-type: none;
     color:  #8a8d91;
@@ -282,10 +302,6 @@ ul li{
     margin-right: 20px;
     font-family: inherit;
 
-}
-
-.languages li{
-    margin-right: 10px !important;
 }
 
 ul li:hover{
